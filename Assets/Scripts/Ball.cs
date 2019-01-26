@@ -1,8 +1,7 @@
 using System;
 using UnityEngine;
 
-
-
+   
 public class Ball : MonoBehaviour
 {
     [SerializeField] private float m_MovePower = 5; // The force added to the ball to move it.

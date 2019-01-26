@@ -6,7 +6,7 @@
         _xColor ("X Color", Color) = (1,1,1,1)
         _zColor ("Z Color", Color) = (1,1,1,1)
         _topFadeY ("TopFade", Range(-10, 100)) = 0
-        _bottomFadeY ("TopFade", Range(-10, 100)) = 1
+        _bottomFadeY ("BottomFade", Range(-10, 100)) = 1
         _Glossiness ("Smoothness", Range(0,1)) = 0.5
         _Metallic ("Metallic", Range(0,1)) = 0.0
     }
@@ -17,7 +17,7 @@
 
         CGPROGRAM
         // Physically based Standard lighting model, and enable shadows on all light types
-        #pragma surface surf Standard fullforwardshadows
+        #pragma surface surf Standard fullforwardshadows 
 
         // Use shader model 3.0 target, to get nicer looking lighting
         #pragma target 3.0

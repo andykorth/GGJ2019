@@ -18,4 +18,6 @@ public class NPC : MonoBehaviour
 
     public float radius = 2.5f;
     public string dialogLine;
+
+    
 }

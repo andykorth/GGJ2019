@@ -6,6 +6,10 @@ using TMPro;
 
 public class DialogUI : SingletonScript<DialogUI>
 {
+
+    public Button choiceA;
+    public Button choiceB;
+
     public CanvasGroup cg;
     public TextMeshProUGUI  text;
     public NPC talkingTo;
@@ -24,5 +28,13 @@ public class DialogUI : SingletonScript<DialogUI>
         get {
             return cg.alpha > 0;
         }
+    }
+
+    public void ChooseA(){
+
+    }
+    
+    public void ChooseB(){
+        
     }
 }
