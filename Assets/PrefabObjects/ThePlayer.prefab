@@ -50,8 +50,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_MovePower: 5
   m_UseTorque: 1
-  m_MaxAngularVelocity: 25
-  m_JumpPower: 2
+  m_MaxAngularVelocity: 20
+  m_JumpPower: 0.75
 --- !u!114 &3042599537578804863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73,8 +73,8 @@ Rigidbody:
   m_GameObject: {fileID: 2869854071914321374}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 0.2
+  m_AngularDrag: 1.25
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
