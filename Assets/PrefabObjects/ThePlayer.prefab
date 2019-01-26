@@ -9,7 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2869854071914321370}
-  - component: {fileID: 942902002989623055}
+  - component: {fileID: 6952016509253595219}
+  - component: {fileID: 3042599537578804863}
   - component: {fileID: 2869854071914321367}
   - component: {fileID: 2869854071914321371}
   - component: {fileID: 2869854071914321368}
@@ -35,7 +36,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &942902002989623055
+--- !u!114 &6952016509253595219
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -44,15 +45,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 2869854071914321374}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6eb7493c26906ed47a70b88caf68e32e, type: 3}
+  m_Script: {fileID: 11500000, guid: e004fefca5c7ba44d9c5ffd46fdee2ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 2869854071914321367}
-  vel: {x: 0, y: 0, z: 0}
-  speed: 30
-  airSpeed: 1.5
-  dampen: 0.95
-  jumpVel: 300
+  m_MovePower: 5
+  m_UseTorque: 1
+  m_MaxAngularVelocity: 25
+  m_JumpPower: 2
+--- !u!114 &3042599537578804863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2869854071914321374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daa7e0829bc72c94babd728cc0466196, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!54 &2869854071914321367
 Rigidbody:
   m_ObjectHideFlags: 0

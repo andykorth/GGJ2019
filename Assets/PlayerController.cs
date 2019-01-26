@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     public float jumpVel = 10;
     private Transform cameraTransform;
 
+
     public void Start(){
         cameraTransform = Camera.main.transform;
     }
