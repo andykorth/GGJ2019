@@ -6,6 +6,8 @@ using TMPro;
 
 public class NPC : MonoBehaviour
 {
+    public int currentLine = 0;
+
     public static List<NPC> allNPCs = new List<NPC>();
     
     public void OnEnable(){
@@ -17,7 +19,33 @@ public class NPC : MonoBehaviour
     }
 
     public float radius = 2.5f;
-    public string dialogLine;
+    public List<string> dialogLines;
 
-    
+    public void ShowNextLine(){
+        if(currentLine < 0){
+            // don't show more lines until ConverstaionEnd  is called
+            return;
+        }
+
+        if(currentLine >= dialogLines.Count){
+            currentLine = -1;
+            DialogUI.i.Close();
+            return;
+        }
+
+        string line = dialogLines[currentLine];
+        Debug.Log("Show line: " + currentLine + ": " + line);
+        DialogUI.i.Show(this, line, currentLine % 2 == 1);
+        currentLine += 1;
+
+    }
+
+    public void ConversationEnd(){
+        Debug.Log("Conversation end with " + this.name);
+        currentLine = 0;
+    }
+
+
+
+
 }

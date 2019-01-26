@@ -14,13 +14,20 @@ public class DialogUI : SingletonScript<DialogUI>
     public TextMeshProUGUI  text;
     public NPC talkingTo;
 
-    public void Show(NPC n, string s){
+    public void Show(NPC n, string s, bool player){
+
+        text.faceColor = player ? Color.red : Color.white;
+        text.alignment = player ? TextAlignmentOptions.MidlineRight : TextAlignmentOptions.MidlineLeft;
+
         talkingTo = n;
-        AddAnimation(0.3f, (a) => cg.alpha = a);
         text.SetText(s);
+        if(cg.alpha == 0){
+            AddAnimation(0.3f, (a) => cg.alpha = a + 0.01f);
+        }
     }
 
     public void Close(){
+        Debug.Log("Closing dialog");
         AddAnimation(0.3f, (a) => cg.alpha = 1 - a);
     }
 
@@ -35,6 +42,6 @@ public class DialogUI : SingletonScript<DialogUI>
     }
     
     public void ChooseB(){
-        
+
     }
 }

@@ -5,6 +5,8 @@
         _Color ("Color", Color) = (1,1,1,1)
         _xColor ("X Color", Color) = (1,1,1,1)
         _zColor ("Z Color", Color) = (1,1,1,1)
+        _directionalStrength ("Directional Strength", Range(0, 1)) = 0.3
+
         _topFadeY ("TopFade", Range(-10, 100)) = 0
         _bottomFadeY ("BottomFade", Range(-10, 100)) = 1
         _Glossiness ("Smoothness", Range(0,1)) = 0.5
@@ -36,6 +38,7 @@
         fixed4 _zColor;
         half _topFadeY;
         half _bottomFadeY;
+        half _directionalStrength;
 
         // Add instancing support for this shader. You need to check 'Enable Instancing' on materials that use the shader.
         // See https://docs.unity3d.com/Manual/GPUInstancing.html for more information about instancing.
@@ -50,7 +53,7 @@
             fixed4 c = _Color + _xColor * dot(float3(1, 0, 0), IN.worldNormal) + _zColor * dot(float3(0, 0, 1), IN.worldNormal);
 
             float s = (IN.worldPos.y - _bottomFadeY) / (_topFadeY - _bottomFadeY);
-            c *= 1 - clamp(s * 0.4 + 0.6, 0 ,1);
+            c *= 1 - clamp(s * 0.4 + 0.6, 0, 1);
 
             o.Albedo = c.rgb;
             // Metallic and smoothness come from slider variables
