@@ -9,8 +9,9 @@ public class PlayerController : MonoBehaviour
     
     public Vector3 vel = Vector3.zero;
     public float speed = 3.0f;
-    public float accel = 0.1f;
-    public float gravity = 3f;
+    public float airSpeed = 0.5f;
+
+    public float dampen = 0.95f;
 
     public float jumpVel = 10;
     private Transform cameraTransform;
@@ -19,22 +20,23 @@ public class PlayerController : MonoBehaviour
         cameraTransform = Camera.main.transform;
     }
 
-    void Update()
+    void FixedUpdate()
     {
-        float y = vel.y + Time.deltaTime * -gravity;
-        
-        Vector3 newVel = cameraTransform.rotation * new Vector3(Input.GetAxis("Horizontal") * speed, 0, Input.GetAxis("Vertical") * speed);
+        bool grounded = Physics.Raycast(transform.position, -Vector3.up, 1.1f );
 
-        newVel.y = y;   
+        float s = grounded ? speed : airSpeed;
 
-        vel = Vector3.Lerp(vel, newVel, accel);
+        Vector3 addForce = cameraTransform.rotation * new Vector3(Input.GetAxis("Horizontal") * speed, 0, Input.GetAxis("Vertical") * speed);
 
-        if(Input.GetKeyDown(KeyCode.Space)){
+        if(Input.GetKeyDown(KeyCode.Space) && grounded ) {
             // jump:
-            vel.y = jumpVel;
+            addForce.y += jumpVel;
         }
 
-        rb.velocity = vel;
+        rb.AddForce(addForce, ForceMode.Force);
+
+        // dampen velocity
+        rb.velocity = rb.velocity * dampen;
 
     }
 }
