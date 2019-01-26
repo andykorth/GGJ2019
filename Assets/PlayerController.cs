@@ -29,6 +29,15 @@ public class PlayerController : MonoBehaviour
             }
         }
 
+        if(transform.position.y < -5){
+            PlayerDead();
+        }
 
    }
+
+    public void PlayerDead(){
+        transform.position = GameManager.i.spawnPoint.position;
+        ball.PumpTheBrakes();
+    }
+
 }

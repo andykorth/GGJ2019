@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-   
+    
 public class Ball : MonoBehaviour
 {
     [SerializeField] private float m_MovePower = 5; // The force added to the ball to move it.
@@ -29,7 +29,7 @@ public class Ball : MonoBehaviour
         m_Rigidbody.angularDrag = 10;
     //    m_Rigidbody.drag = 20;
 
-        GameManager.i.AddDelayed(1.0f, () => {
+        GameManager.i.AddDelayed(0.3f, () => {
             m_Rigidbody.drag = drag;
             m_Rigidbody.angularDrag = angularDrag;
         });
