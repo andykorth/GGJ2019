@@ -1,0 +1,207 @@
+fileFormatVersion: 2
+guid: dd24bf6d673f5534db98c40a2dcf454b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: pSphere57_talisman_group
+    100002: //RootNode
+    100004: talisman_combined_mesh
+    100006: talisman_group_pSphere58
+    100008: talisman_group_pSphere59
+    100010: talisman_group_pSphere60
+    100012: talisman_group_pSphere61
+    100014: talisman_group_pSphere62
+    100016: talisman_group_pSphere63
+    100018: talisman_group_pSphere64
+    100020: talisman_group_pSphere65
+    100022: talisman_group_pSphere66
+    100024: talisman_group_pSphere67
+    100026: talisman_group_pSphere68
+    100028: talisman_group_pSphere69
+    100030: talisman_group_pSphere70
+    100032: talisman_group_pSphere71
+    100034: talisman_group_pSphere72
+    100036: talisman_group_pSphere73
+    100038: talisman_inverted_mesh
+    400000: pSphere57_talisman_group
+    400002: //RootNode
+    400004: talisman_combined_mesh
+    400006: talisman_group_pSphere58
+    400008: talisman_group_pSphere59
+    400010: talisman_group_pSphere60
+    400012: talisman_group_pSphere61
+    400014: talisman_group_pSphere62
+    400016: talisman_group_pSphere63
+    400018: talisman_group_pSphere64
+    400020: talisman_group_pSphere65
+    400022: talisman_group_pSphere66
+    400024: talisman_group_pSphere67
+    400026: talisman_group_pSphere68
+    400028: talisman_group_pSphere69
+    400030: talisman_group_pSphere70
+    400032: talisman_group_pSphere71
+    400034: talisman_group_pSphere72
+    400036: talisman_group_pSphere73
+    400038: talisman_inverted_mesh
+    2100000: pSphere57_talisman_groupMat
+    2100002: talisman_combined_meshMat
+    2100004: talisman_group_pSphere58Mat
+    2100006: talisman_group_pSphere59Mat
+    2100008: talisman_group_pSphere60Mat
+    2100010: talisman_group_pSphere61Mat
+    2100012: talisman_group_pSphere62Mat
+    2100014: talisman_group_pSphere63Mat
+    2100016: talisman_group_pSphere64Mat
+    2100018: talisman_group_pSphere65Mat
+    2100020: talisman_group_pSphere66Mat
+    2100022: talisman_group_pSphere67Mat
+    2100024: talisman_group_pSphere68Mat
+    2100026: talisman_group_pSphere69Mat
+    2100028: talisman_group_pSphere70Mat
+    2100030: talisman_group_pSphere71Mat
+    2100032: talisman_group_pSphere72Mat
+    2100034: talisman_group_pSphere73Mat
+    2100036: talisman_inverted_meshMat
+    2300000: pSphere57_talisman_group
+    2300002: talisman_combined_mesh
+    2300004: talisman_group_pSphere58
+    2300006: talisman_group_pSphere59
+    2300008: talisman_group_pSphere60
+    2300010: talisman_group_pSphere61
+    2300012: talisman_group_pSphere62
+    2300014: talisman_group_pSphere63
+    2300016: talisman_group_pSphere64
+    2300018: talisman_group_pSphere65
+    2300020: talisman_group_pSphere66
+    2300022: talisman_group_pSphere67
+    2300024: talisman_group_pSphere68
+    2300026: talisman_group_pSphere69
+    2300028: talisman_group_pSphere70
+    2300030: talisman_group_pSphere71
+    2300032: talisman_group_pSphere72
+    2300034: talisman_group_pSphere73
+    2300036: talisman_inverted_mesh
+    3300000: pSphere57_talisman_group
+    3300002: talisman_combined_mesh
+    3300004: talisman_group_pSphere58
+    3300006: talisman_group_pSphere59
+    3300008: talisman_group_pSphere60
+    3300010: talisman_group_pSphere61
+    3300012: talisman_group_pSphere62
+    3300014: talisman_group_pSphere63
+    3300016: talisman_group_pSphere64
+    3300018: talisman_group_pSphere65
+    3300020: talisman_group_pSphere66
+    3300022: talisman_group_pSphere67
+    3300024: talisman_group_pSphere68
+    3300026: talisman_group_pSphere69
+    3300028: talisman_group_pSphere70
+    3300030: talisman_group_pSphere71
+    3300032: talisman_group_pSphere72
+    3300034: talisman_group_pSphere73
+    3300036: talisman_inverted_mesh
+    4300000: pSphere57_talisman_group
+    4300002: talisman_combined_mesh
+    4300004: talisman_group_pSphere58
+    4300006: talisman_group_pSphere59
+    4300008: talisman_group_pSphere60
+    4300010: talisman_group_pSphere61
+    4300012: talisman_group_pSphere62
+    4300014: talisman_group_pSphere63
+    4300016: talisman_group_pSphere64
+    4300018: talisman_group_pSphere65
+    4300020: talisman_group_pSphere66
+    4300022: talisman_group_pSphere67
+    4300024: talisman_group_pSphere68
+    4300026: talisman_group_pSphere69
+    4300028: talisman_group_pSphere70
+    4300030: talisman_group_pSphere71
+    4300032: talisman_group_pSphere72
+    4300034: talisman_group_pSphere73
+    4300036: talisman_inverted_mesh
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

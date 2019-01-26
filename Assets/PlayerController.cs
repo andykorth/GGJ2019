@@ -29,13 +29,13 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if(transform.position.y < -5){
-            PlayerDead();
+        if(transform.position.y < -5 || Input.GetKeyDown(KeyCode.R)){
+            GameManager.i.RespawnPlayer(this);
         }
 
    }
 
-    public void PlayerDead(){
+    public void RespawnPlayer(){
         transform.position = GameManager.i.spawnPoint.position;
         ball.PumpTheBrakes();
     }
