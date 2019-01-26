@@ -6,13 +6,28 @@ public class PlayerController : MonoBehaviour
 {
 
     public Rigidbody rb;
-    public float gravity = 1;
     
+    public Vector3 vel = Vector3.zero;
+    public float speed = 3.0f;
+    public float accel = 0.1f;
+    public float gravity = 3f;
+
+    public float jumpVel = 10;
+
     void Update()
     {
-        Vector3 t = new Vector3(Input.GetAxis("Horizontal"), 0,  Input.GetAxis("Vertical"));
-        rb.AddTorque(t);
+        float y = vel.y + Time.deltaTime * -gravity;
+        
+        Vector3 newVel = new Vector3(Input.GetAxis("Horizontal") * speed, y, Input.GetAxis("Vertical") * speed);
 
+        vel = Vector3.Lerp(vel, newVel, accel);
+
+        if(Input.GetKeyDown(KeyCode.Space)){
+            // jump:
+            vel.y = jumpVel;
+        }
+
+        rb.velocity = vel;
 
     }
 }
