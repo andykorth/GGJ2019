@@ -9,11 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2869854071914321370}
-  - component: {fileID: 2869854071914321364}
+  - component: {fileID: 942902002989623055}
   - component: {fileID: 2869854071914321367}
   - component: {fileID: 2869854071914321371}
   - component: {fileID: 2869854071914321368}
-  - component: {fileID: 2869854071914321369}
+  - component: {fileID: 1341719846603503359}
   m_Layer: 0
   m_Name: ThePlayer
   m_TagString: Untagged
@@ -35,7 +35,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2869854071914321364
+--- !u!114 &942902002989623055
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -51,8 +51,8 @@ MonoBehaviour:
   vel: {x: 0, y: 0, z: 0}
   speed: 3
   accel: 0.1
-  gravity: 20
-  jumpVel: 3
+  gravity: 3
+  jumpVel: 2
 --- !u!54 &2869854071914321367
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -114,7 +114,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!135 &2869854071914321369
+--- !u!135 &1341719846603503359
 SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
