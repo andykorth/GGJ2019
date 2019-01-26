@@ -1,0 +1,48 @@
+Build/
+*.akd
+WWiseProject/GG/ProfilingSession*.prof
+WWiseProject/GG/IncrementalSoundBankData.xml
+.vscode
+.BridgeSort
+.BridgeLabelsAndRatings
+
+# Unity generates meta data files for empty folders that are big annoyances
+# because git doesn't track empty folders.
+
+
+# Unity generated #
+# =============== #
+Temp/
+Obj/
+UnityGenerated/
+Library/
+WWiseProject/GG/GeneratedSoundBanks
+WWiseProject/GG/.cache
+WWiseProject/GG/.backup
+Assets/StreamingAssets/Audio/GeneratedSoundBanks
+ 
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+ 
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
