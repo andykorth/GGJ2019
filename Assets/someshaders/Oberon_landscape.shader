@@ -60,11 +60,11 @@ float _Vertexpower;
 			
 			inline half4 LightingBlinnPhongEditor_PrePass (EditorSurfaceOutput s, half4 light)
 			{
-half3 spec = light.a * s.Gloss;
-half4 c;
-c.rgb = (s.Albedo * light.rgb + light.rgb * spec);
-c.a = s.Alpha;
-return c;
+				half3 spec = light.a * s.Gloss;
+				half4 c;
+				c.rgb = (s.Albedo * light.rgb + light.rgb * spec);
+				c.a = s.Alpha;
+				return c;
 
 			}
 
@@ -87,18 +87,20 @@ return c;
 			
 			struct Input {
 				float4 fullMeshUV1;
-float3 viewDir;
-float4 color : COLOR;
+				float3 viewDir;
+				float4 color : COLOR;
 
 			};
 
 			void vert (inout appdata_full v, out Input o) {
-float4 VertexOutputMaster0_0_NoInput = float4(0,0,0,0);
-float4 VertexOutputMaster0_1_NoInput = float4(0,0,0,0);
-float4 VertexOutputMaster0_2_NoInput = float4(0,0,0,0);
-float4 VertexOutputMaster0_3_NoInput = float4(0,0,0,0);
+				float4 VertexOutputMaster0_0_NoInput = float4(0,0,0,0);
+				float4 VertexOutputMaster0_1_NoInput = float4(0,0,0,0);
+				float4 VertexOutputMaster0_2_NoInput = float4(0,0,0,0);
+				float4 VertexOutputMaster0_3_NoInput = float4(0,0,0,0);
 
-o.fullMeshUV1 = v.texcoord;
+				o.fullMeshUV1 = v.texcoord;	
+				o.viewDir = float3(0,0,0);
+				o.color = float4(0,0,0,0);
 
 			}
 			
