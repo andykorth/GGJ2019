@@ -51,8 +51,8 @@ MonoBehaviour:
   vel: {x: 0, y: 0, z: 0}
   speed: 3
   accel: 0.1
-  gravity: 40
-  jumpVel: 10
+  gravity: 20
+  jumpVel: 3
 --- !u!54 &2869854071914321367
 Rigidbody:
   m_ObjectHideFlags: 0
