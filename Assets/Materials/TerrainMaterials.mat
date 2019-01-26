@@ -75,9 +75,9 @@ Material:
     - _Vertexpower: 1
     - _ZWrite: 1
     - _base_height: 0.2
-    - _bottomFadeY: -10
+    - _bottomFadeY: 80
     - _height_blur: 0.7
-    - _topFadeY: 40
+    - _topFadeY: -10
     - _top_rim_blur: 0
     - _top_rim_offset: 0
     m_Colors:
