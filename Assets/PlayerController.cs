@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if(transform.position.y < -5 || Input.GetKeyDown(KeyCode.R)){
+        if( Input.GetKeyDown(KeyCode.R)){
             GameManager.i.RespawnPlayer(this);
         }
 
