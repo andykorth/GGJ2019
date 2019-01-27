@@ -34,8 +34,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -40, y: -40}
+  m_AnchoredPosition: {x: 0, y: -10}
+  m_SizeDelta: {x: -100, y: -80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1981848994874959721
 CanvasRenderer:
@@ -221,16 +221,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.9490196}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
+  m_Sprite: {fileID: 21300000, guid: 2d4d7dcb5dae04d4ba625112a47d73ac, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -245,7 +245,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2500109642856840559}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
@@ -261,5 +261,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8668e02f17d347c498da0bb562a666a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  squareBG: {fileID: 21300000, guid: 2d4d7dcb5dae04d4ba625112a47d73ac, type: 3}
+  sphereBG: {fileID: 21300000, guid: 2f4ab6f2384e722409a86fa9e38ee5e7, type: 3}
+  playerBG: {fileID: 21300000, guid: dd37f7f23b26d954b80ef56721992cc7, type: 3}
+  bgImage: {fileID: 6426933036928156490}
+  choiceA: {fileID: 0}
+  choiceB: {fileID: 0}
   cg: {fileID: 8866612020633189293}
   text: {fileID: 3711948413435950025}
+  talkingTo: {fileID: 0}

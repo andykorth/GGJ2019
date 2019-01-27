@@ -4,8 +4,15 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+public enum NPCType{
+    SpherePerson, SquarePerson
+}
+
 public class NPC : MonoBehaviour
 {
+
+    public NPCType type = NPCType.SpherePerson;
+
     public Vector2 startPos;
 
     public int currentLine = 0;
@@ -48,7 +55,7 @@ public class NPC : MonoBehaviour
 
         string line = dialogLines[currentLine];
         Debug.Log("Show line: " + currentLine + ": " + line);
-        DialogUI.i.Show(this, line, currentLine % 2 == 1);
+        DialogUI.i.Show(this, line, currentLine % 2 == 1, type);
         currentLine += 1;
 
     }

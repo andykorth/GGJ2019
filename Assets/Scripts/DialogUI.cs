@@ -6,6 +6,9 @@ using TMPro;
 
 public class DialogUI : SingletonScript<DialogUI>
 {
+    public Sprite squareBG, sphereBG, playerBG;
+
+    public Image bgImage;
 
     public Button choiceA;
     public Button choiceB;
@@ -14,9 +17,17 @@ public class DialogUI : SingletonScript<DialogUI>
     public TextMeshProUGUI  text;
     public NPC talkingTo;
 
-    public void Show(NPC n, string s, bool player){
+    public void Show(NPC n, string s, bool player, NPCType type){
 
-        text.faceColor = player ? Color.red : Color.white;
+        if(player){
+            bgImage.sprite = playerBG;
+        }else if(type == NPCType.SpherePerson){
+            bgImage.sprite = sphereBG;
+        }else{
+            bgImage.sprite = squareBG;
+        }
+
+        text.faceColor = player ? Color.white : Color.white;
         text.alignment = player ? TextAlignmentOptions.MidlineRight : TextAlignmentOptions.MidlineLeft;
 
         talkingTo = n;
