@@ -12,6 +12,7 @@ public class NPC : MonoBehaviour
 {
 
     public NPCType type = NPCType.SpherePerson;
+    public bool talkingTriggersMeeting = false;
 
     public Vector2 startPos;
 
@@ -48,6 +49,9 @@ public class NPC : MonoBehaviour
         }
 
         if(currentLine >= dialogLines.Count){
+            if(talkingTriggersMeeting){
+                GameManager.i.TriggerMeeting();
+            }
             currentLine = -1;
             DialogUI.i.Close();
             return;

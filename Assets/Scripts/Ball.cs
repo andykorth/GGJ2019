@@ -15,6 +15,10 @@ public class Ball : MonoBehaviour
     private float angularDrag, drag;
 
 
+    public AudioClip landingSound1, landingSound2;
+    public AudioClip jumpSound;
+    public bool grounded = true;
+
     private void Start()
     {
         m_Rigidbody = GetComponent<Rigidbody>();
@@ -51,7 +55,16 @@ public class Ball : MonoBehaviour
         }
 
         // If on the ground and jump is pressed...
-        if (Physics.Raycast(transform.position, -Vector3.up, k_GroundRayLength) && jump)
+        bool groundedNow = Physics.Raycast(transform.position, -Vector3.up, k_GroundRayLength);
+        if(groundedNow != grounded ){
+            if(groundedNow){
+                AudioSource.PlayClipAtPoint(UnityEngine.Random.value > 0.5f ? landingSound1 : landingSound2, transform.position);
+            }
+        }
+        
+        grounded = groundedNow;
+        
+        if (groundedNow && jump)
         {
             // ... add force in upwards.
             m_Rigidbody.AddForce(Vector3.up*m_JumpPower, ForceMode.Impulse);

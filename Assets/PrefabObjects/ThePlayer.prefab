@@ -65,6 +65,10 @@ MonoBehaviour:
   m_UseTorque: 1
   m_MaxAngularVelocity: 20
   m_JumpPower: 0.75
+  landingSound1: {fileID: 8300000, guid: a6e96668b52001d45bb9db071cde3efa, type: 3}
+  landingSound2: {fileID: 8300000, guid: b90da8f1464a3b244a235ee52031b3d1, type: 3}
+  jumpSound: {fileID: 0}
+  grounded: 1
 --- !u!114 &3042599537578804863
 MonoBehaviour:
   m_ObjectHideFlags: 0
