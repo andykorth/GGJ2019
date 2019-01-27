@@ -182,6 +182,7 @@ ModelImporter:
     100352: environment_group_pyramidlands_group_pPyramid61
     100354: environment_group_pyramidlands_group_pPyramid62
     100356: environment_group_pyramidlands_group_pPyramid63
+    100358: environment_group_cubeland_group_cube_throne_mesh
     400000: baseland_mesh_environment_group
     400002: environment_group_betweenlands_group_pCube10
     400004: environment_group_betweenlands_group_pCube5
@@ -361,6 +362,7 @@ ModelImporter:
     400352: environment_group_pyramidlands_group_pPyramid61
     400354: environment_group_pyramidlands_group_pPyramid62
     400356: environment_group_pyramidlands_group_pPyramid63
+    400358: environment_group_cubeland_group_cube_throne_mesh
     2100000: baseland_mesh_environment_groupMat
     2100002: environment_group_betweenlands_group_pCube10Mat
     2100004: environment_group_betweenlands_group_pCube5Mat
@@ -539,6 +541,7 @@ ModelImporter:
     2100350: environment_group_pyramidlands_group_pPyramid61Mat
     2100352: environment_group_pyramidlands_group_pPyramid62Mat
     2100354: environment_group_pyramidlands_group_pPyramid63Mat
+    2100356: environment_group_cubeland_group_cube_throne_meshMat
     2300000: baseland_mesh_environment_group
     2300002: environment_group_betweenlands_group_pCube10
     2300004: environment_group_betweenlands_group_pCube5
@@ -717,6 +720,7 @@ ModelImporter:
     2300350: environment_group_pyramidlands_group_pPyramid61
     2300352: environment_group_pyramidlands_group_pPyramid62
     2300354: environment_group_pyramidlands_group_pPyramid63
+    2300356: environment_group_cubeland_group_cube_throne_mesh
     3300000: baseland_mesh_environment_group
     3300002: environment_group_betweenlands_group_pCube10
     3300004: environment_group_betweenlands_group_pCube5
@@ -895,6 +899,7 @@ ModelImporter:
     3300350: environment_group_pyramidlands_group_pPyramid61
     3300352: environment_group_pyramidlands_group_pPyramid62
     3300354: environment_group_pyramidlands_group_pPyramid63
+    3300356: environment_group_cubeland_group_cube_throne_mesh
     4300000: baseland_mesh_environment_group
     4300002: environment_group_betweenlands_group_pCube10
     4300004: environment_group_betweenlands_group_pCube5
@@ -1073,6 +1078,7 @@ ModelImporter:
     4300350: environment_group_pyramidlands_group_pPyramid61
     4300352: environment_group_pyramidlands_group_pPyramid62
     4300354: environment_group_pyramidlands_group_pPyramid63
+    4300356: environment_group_cubeland_group_cube_throne_mesh
   externalObjects: {}
   materials:
     importMaterials: 1
