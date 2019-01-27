@@ -14,6 +14,7 @@ public class Ball : MonoBehaviour
 
     private float angularDrag, drag;
 
+    public AudioSource rollingLoop;
 
     public AudioClip landingSound1, landingSound2;
     public AudioClip jumpSound;
@@ -37,6 +38,15 @@ public class Ball : MonoBehaviour
             m_Rigidbody.drag = drag;
             m_Rigidbody.angularDrag = angularDrag;
         });
+    }
+
+    public void Update(){
+        float speed = m_Rigidbody.velocity.magnitude;
+        // Debug.Log("Speed: " + speed);
+
+        float volume = (speed - 1) / 5;
+        if(!grounded) volume = 0;
+        rollingLoop.volume = volume;
     }
 
 
