@@ -15,6 +15,7 @@ public class Ball : MonoBehaviour
     private float angularDrag, drag;
 
     public AudioSource rollingLoop;
+    public float rollMaxVolume = 0.6f;
 
     public AudioClip landingSound1, landingSound2;
     public AudioClip jumpSound;
@@ -31,8 +32,8 @@ public class Ball : MonoBehaviour
     }
 
     public void PumpTheBrakes(){
-        m_Rigidbody.angularDrag = 10;
-    //    m_Rigidbody.drag = 20;
+        m_Rigidbody.angularDrag = 20;
+        m_Rigidbody.drag = 5;
 
         GameManager.i.AddDelayed(0.3f, () => {
             m_Rigidbody.drag = drag;
@@ -46,12 +47,13 @@ public class Ball : MonoBehaviour
 
         float volume = (speed - 1) / 5;
         if(!grounded) volume = 0;
-        rollingLoop.volume = volume;
+        rollingLoop.volume = volume * rollMaxVolume;
     }
 
 
     public void Move(Vector3 moveDirection, bool jump)
     {
+
         // If using torque to rotate the ball...
         if (m_UseTorque)
         {
@@ -74,7 +76,7 @@ public class Ball : MonoBehaviour
         
         grounded = groundedNow;
         
-        if (groundedNow && jump)
+        if (groundedNow && jump && DialogUI.i.talkingTo == null)
         {
             // ... add force in upwards.
             m_Rigidbody.AddForce(Vector3.up*m_JumpPower, ForceMode.Impulse);

@@ -15,6 +15,8 @@ public class NPC : MonoBehaviour
     public bool talkingTriggersMeeting = false;
     public bool talkingRemovesTalisman = false;
 
+    public GameObject newDialogMarker;
+
     public Vector2 startPos;
 
     public int currentLine = 0;
@@ -44,7 +46,7 @@ public class NPC : MonoBehaviour
     }
 
     public void ShowNextLine(){
-        if(currentLine < 0 || dialogLines.Count <= 0){
+        if(currentLine < 0 || dialogLines.Count <= 0 || (talkingTriggersMeeting && GameManager.i.meetingTriggered)){
             // don't show more lines until ConverstaionEnd  is called
             return;
         }
@@ -59,6 +61,10 @@ public class NPC : MonoBehaviour
             currentLine = -1;
             DialogUI.i.Close();
             return;
+        }
+
+        if(newDialogMarker != null){
+            newDialogMarker.SetActive(false);
         }
 
         string line = dialogLines[currentLine];

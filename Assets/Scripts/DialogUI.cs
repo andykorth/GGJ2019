@@ -38,7 +38,8 @@ public class DialogUI : SingletonScript<DialogUI>
     }
 
     public void Close(){
-        Debug.Log("Closing dialog");
+        Debug.Log("Closing dialog with: " + talkingTo.gameObject.name);
+        talkingTo = null;
         AddAnimation(0.3f, (a) => cg.alpha = 1 - a);
     }
 

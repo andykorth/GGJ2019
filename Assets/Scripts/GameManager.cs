@@ -35,6 +35,7 @@ public class GameManager : SingletonScript<GameManager>
 		// uiTalisman.material.color = new Color(1f, 1f, 1f, 0f);
 
 		Cursor.visible = false;
+		Cursor.lockState = CursorLockMode.Confined;
 	}
 
 	public void Update(){
@@ -74,7 +75,7 @@ public class GameManager : SingletonScript<GameManager>
 
 	public void TriggerMeeting(){
 		if(meetingTriggered) return;
-		
+
 		meetingTriggered = true;
 
 		AddAnimation(1.0f, (a) => {
