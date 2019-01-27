@@ -9,11 +9,14 @@ public class GameManager : SingletonScript<GameManager>
 
 	public GameObject premeetingGroup, postMeetingGroup;
 
+	public GameObject InGameTalisman;
+
 	public MeshRenderer uiTalisman;
 	public Image fadeoutImage;
 
+	public PlayerController player;
 	public AudioSource cubeMusic, sphereMusic;
-
+	public Transform audioCubeZone, audioSphereZone;
 
     public CanvasGroup  meetingText;
 
@@ -28,6 +31,16 @@ public class GameManager : SingletonScript<GameManager>
 		
 		uiTalisman.gameObject.SetActive(false);
 		// uiTalisman.material.color = new Color(1f, 1f, 1f, 0f);
+	}
+
+	public void Update(){
+
+		float x = player.transform.position.x;
+
+		float dist = audioSphereZone.position.x - audioCubeZone.position.x;
+		float a = Mathf.Clamp01( (x - audioCubeZone.position.x) / dist );
+		//Debug.Log(" a =  " + a);
+		Mix(a);
 	}
 
 	public void RespawnPlayer(PlayerController pc){
@@ -47,6 +60,10 @@ public class GameManager : SingletonScript<GameManager>
 
 	}
 
+	public void RemoveTalisman(){
+		InGameTalisman.SetActive(false);
+	}
+
 	public void TriggerMeeting(){
 		AddAnimation(1.0f, (a) => {
 			fadeoutImage.color = new Color(0, 0, 0, a);
@@ -57,7 +74,7 @@ public class GameManager : SingletonScript<GameManager>
 			fadeoutImage.color = new Color(0, 0, 0, 1-a);
 			meetingText.alpha = 1-a;
 			// talisman.color = new Color(1, 1, 1, a);
-		}, 1.5f);
+		}, 3.5f);
 		
 		AddDelayed(1.25f, () => {
 			meetingText.gameObject.SetActive(false);

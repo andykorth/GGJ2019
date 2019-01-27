@@ -50,9 +50,13 @@ MonoBehaviour:
   postMeetingGroup: {fileID: 0}
   uiTalisman: {fileID: 0}
   fadeoutImage: {fileID: 0}
+  player: {fileID: 0}
   cubeMusic: {fileID: 5399200370008030529}
   sphereMusic: {fileID: 6458287382045245746}
+  audioCubeZone: {fileID: 0}
+  audioSphereZone: {fileID: 0}
   meetingText: {fileID: 0}
+  maxMusicVol: 0.3
 --- !u!82 &6458287382045245746
 AudioSource:
   m_ObjectHideFlags: 0

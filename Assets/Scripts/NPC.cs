@@ -13,6 +13,7 @@ public class NPC : MonoBehaviour
 
     public NPCType type = NPCType.SpherePerson;
     public bool talkingTriggersMeeting = false;
+    public bool talkingRemovesTalisman = false;
 
     public Vector2 startPos;
 
@@ -43,7 +44,7 @@ public class NPC : MonoBehaviour
     }
 
     public void ShowNextLine(){
-        if(currentLine < 0){
+        if(currentLine < 0 || dialogLines.Count <= 0){
             // don't show more lines until ConverstaionEnd  is called
             return;
         }
@@ -51,6 +52,9 @@ public class NPC : MonoBehaviour
         if(currentLine >= dialogLines.Count){
             if(talkingTriggersMeeting){
                 GameManager.i.TriggerMeeting();
+            }
+            if(talkingRemovesTalisman){
+                GameManager.i.RemoveTalisman();
             }
             currentLine = -1;
             DialogUI.i.Close();
