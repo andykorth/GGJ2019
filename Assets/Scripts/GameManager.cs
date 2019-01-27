@@ -31,6 +31,8 @@ public class GameManager : SingletonScript<GameManager>
 		
 		uiTalisman.gameObject.SetActive(false);
 		// uiTalisman.material.color = new Color(1f, 1f, 1f, 0f);
+
+		Cursor.visible = false;
 	}
 
 	public void Update(){
@@ -41,6 +43,10 @@ public class GameManager : SingletonScript<GameManager>
 		float a = Mathf.Clamp01( (x - audioCubeZone.position.x) / dist );
 		//Debug.Log(" a =  " + a);
 		Mix(a);
+
+		if(Input.GetKey(KeyCode.Escape)){
+			Application.Quit();
+		}
 	}
 
 	public void RespawnPlayer(PlayerController pc){
