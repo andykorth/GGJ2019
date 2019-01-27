@@ -21,6 +21,8 @@ public class GameManager : SingletonScript<GameManager>
     public CanvasGroup  meetingText;
 
 	public float maxMusicVol = 0.3f;
+	[HideInInspector]
+	public bool meetingTriggered = false;
 
 	public void Mix(float sphereness = 1.0f){
 		cubeMusic.volume = (1 - sphereness) * maxMusicVol;
@@ -71,6 +73,10 @@ public class GameManager : SingletonScript<GameManager>
 	}
 
 	public void TriggerMeeting(){
+		if(meetingTriggered) return;
+		
+		meetingTriggered = true;
+
 		AddAnimation(1.0f, (a) => {
 			fadeoutImage.color = new Color(0, 0, 0, a);
 			meetingText.alpha = a;
