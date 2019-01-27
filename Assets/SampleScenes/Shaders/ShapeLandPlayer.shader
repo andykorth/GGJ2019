@@ -1,4 +1,4 @@
-﻿Shader "Custom/ShapeLand"
+﻿Shader "Custom/ShapeLandPlayer"
 {
     Properties
     {
@@ -68,12 +68,12 @@
             fixed4 c = float4(.5, .5, .5 ,1);
 
 
-            float first =  dot( normalize(float3(0.5, 0, -0.5)), IN.worldNormal);
-            float second = dot( normalize(float3(0.5, 0, 0.5)), IN.worldNormal);
+            float first =  dot( normalize(float3(0.5, 0, -0.5)), IN.uv_MainTex);
+            float second = dot( normalize(float3(0.5, 0, 0.5)), IN.uv_MainTex);
             float remainder = 1 - clamp(first + second, 0, 1);
 
             float2 uv = IN.worldPos.xz * _scale;
-            float sparkle = tex2D(_MainTex, uv).r * remainder * _sparkleIntensity * clamp(dot(float3(0, 1, 0), IN.worldNormal), 0, 1);
+            float sparkle = tex2D(_MainTex, uv).r * remainder * _sparkleIntensity * clamp(dot(float3(0, 1, 0), IN.uv_MainTex), 0, 1);
 
            sparkle = sparkle * abs(sin(IN.worldPos.x + _Time[3]));
 
@@ -88,6 +88,10 @@
 //                             emission = float3(1, 0, 0);
 
             c = float4(emission.rgb, 1);
+            float x = (IN.uv_MainTex.x * 2.0);
+            float y = sin(IN.uv_MainTex.y);
+            c = float4(x, x, x, 1);
+            emission = float3(x, x, x);
 
             float s = (IN.worldPos.y - _bottomFadeY) / (_topFadeY - _bottomFadeY);
             c *= 1 - clamp(s * 0.4 + 0.6, 0, 1);

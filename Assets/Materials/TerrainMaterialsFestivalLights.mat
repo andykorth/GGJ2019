@@ -79,6 +79,7 @@ Material:
     - _directionalStrength: 0.612
     - _emissiveStr: 0.584
     - _height_blur: 0.7
+    - _rimlight: 0.41
     - _scale: 0.1
     - _sparkleIntensity: 1.5
     - _topFadeY: 53.5

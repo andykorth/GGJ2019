@@ -79,16 +79,17 @@ Material:
     - _directionalStrength: 0.612
     - _emissiveStr: 0.584
     - _height_blur: 0.7
+    - _rimlight: 0.79
     - _scale: 0.1
     - _sparkleIntensity: 1.5
     - _topFadeY: 53.5
     - _top_rim_blur: 0
     - _top_rim_offset: 0
     m_Colors:
-    - _Color: {r: 1, g: 0.92156863, b: 0.5372549, a: 1}
+    - _Color: {r: 0.5372549, g: 1, b: 0.61061215, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Rim_Color: {r: 1, g: 1, b: 1, a: 1}
     - _bottom_color: {r: 0, g: 0, b: 0, a: 1}
     - _top_color: {r: 1, g: 1, b: 1, a: 1}
     - _xColor: {r: 1, g: 0.8862745, b: 0.42352936, a: 1}
-    - _zColor: {r: 1, g: 0.5686275, b: 0.25882354, a: 1}
+    - _zColor: {r: 0.55602527, g: 0.990566, b: 0.6431879, a: 1}
