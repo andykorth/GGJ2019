@@ -133,6 +133,55 @@ ModelImporter:
     100254: environment_group_sphereland_group_lights_group4_festival_lights_group_pSphere52
     100256: environment_group_sphereland_group_pSphere49_lights_group4_festival_lights_group
     100258: environment_group_sphereland_group_sphereland_fishbowlwater_mesh
+    100260: environment_group_pyramidlands_group_pPyramid15
+    100262: environment_group_pyramidlands_group_pPyramid16
+    100264: environment_group_pyramidlands_group_pPyramid17
+    100266: environment_group_pyramidlands_group_pPyramid18
+    100268: environment_group_pyramidlands_group_pPyramid19
+    100270: environment_group_pyramidlands_group_pPyramid20
+    100272: environment_group_pyramidlands_group_pPyramid21
+    100274: environment_group_pyramidlands_group_pPyramid22
+    100276: environment_group_pyramidlands_group_pPyramid23
+    100278: environment_group_pyramidlands_group_pPyramid24
+    100280: environment_group_pyramidlands_group_pPyramid25
+    100282: environment_group_pyramidlands_group_pPyramid26
+    100284: environment_group_pyramidlands_group_pPyramid27
+    100286: environment_group_pyramidlands_group_pPyramid28
+    100288: environment_group_pyramidlands_group_pPyramid29
+    100290: environment_group_pyramidlands_group_pPyramid30
+    100292: environment_group_pyramidlands_group_pPyramid31
+    100294: environment_group_pyramidlands_group_pPyramid32
+    100296: environment_group_pyramidlands_group_pPyramid33
+    100298: environment_group_pyramidlands_group_pPyramid34
+    100300: environment_group_pyramidlands_group_pPyramid35
+    100302: environment_group_pyramidlands_group_pPyramid36
+    100304: environment_group_pyramidlands_group_pPyramid37
+    100306: environment_group_pyramidlands_group_pPyramid38
+    100308: environment_group_pyramidlands_group_pPyramid39
+    100310: environment_group_pyramidlands_group_pPyramid40
+    100312: environment_group_pyramidlands_group_pPyramid41
+    100314: environment_group_pyramidlands_group_pPyramid42
+    100316: environment_group_pyramidlands_group_pPyramid43
+    100318: environment_group_pyramidlands_group_pPyramid44
+    100320: environment_group_pyramidlands_group_pPyramid45
+    100322: environment_group_pyramidlands_group_pPyramid46
+    100324: environment_group_pyramidlands_group_pPyramid47
+    100326: environment_group_pyramidlands_group_pPyramid48
+    100328: environment_group_pyramidlands_group_pPyramid49
+    100330: environment_group_pyramidlands_group_pPyramid50
+    100332: environment_group_pyramidlands_group_pPyramid51
+    100334: environment_group_pyramidlands_group_pPyramid52
+    100336: environment_group_pyramidlands_group_pPyramid53
+    100338: environment_group_pyramidlands_group_pPyramid54
+    100340: environment_group_pyramidlands_group_pPyramid55
+    100342: environment_group_pyramidlands_group_pPyramid56
+    100344: environment_group_pyramidlands_group_pPyramid57
+    100346: environment_group_pyramidlands_group_pPyramid58
+    100348: environment_group_pyramidlands_group_pPyramid59
+    100350: environment_group_pyramidlands_group_pPyramid60
+    100352: environment_group_pyramidlands_group_pPyramid61
+    100354: environment_group_pyramidlands_group_pPyramid62
+    100356: environment_group_pyramidlands_group_pPyramid63
     400000: baseland_mesh_environment_group
     400002: environment_group_betweenlands_group_pCube10
     400004: environment_group_betweenlands_group_pCube5
@@ -263,6 +312,55 @@ ModelImporter:
     400254: environment_group_sphereland_group_lights_group4_festival_lights_group_pSphere52
     400256: environment_group_sphereland_group_pSphere49_lights_group4_festival_lights_group
     400258: environment_group_sphereland_group_sphereland_fishbowlwater_mesh
+    400260: environment_group_pyramidlands_group_pPyramid15
+    400262: environment_group_pyramidlands_group_pPyramid16
+    400264: environment_group_pyramidlands_group_pPyramid17
+    400266: environment_group_pyramidlands_group_pPyramid18
+    400268: environment_group_pyramidlands_group_pPyramid19
+    400270: environment_group_pyramidlands_group_pPyramid20
+    400272: environment_group_pyramidlands_group_pPyramid21
+    400274: environment_group_pyramidlands_group_pPyramid22
+    400276: environment_group_pyramidlands_group_pPyramid23
+    400278: environment_group_pyramidlands_group_pPyramid24
+    400280: environment_group_pyramidlands_group_pPyramid25
+    400282: environment_group_pyramidlands_group_pPyramid26
+    400284: environment_group_pyramidlands_group_pPyramid27
+    400286: environment_group_pyramidlands_group_pPyramid28
+    400288: environment_group_pyramidlands_group_pPyramid29
+    400290: environment_group_pyramidlands_group_pPyramid30
+    400292: environment_group_pyramidlands_group_pPyramid31
+    400294: environment_group_pyramidlands_group_pPyramid32
+    400296: environment_group_pyramidlands_group_pPyramid33
+    400298: environment_group_pyramidlands_group_pPyramid34
+    400300: environment_group_pyramidlands_group_pPyramid35
+    400302: environment_group_pyramidlands_group_pPyramid36
+    400304: environment_group_pyramidlands_group_pPyramid37
+    400306: environment_group_pyramidlands_group_pPyramid38
+    400308: environment_group_pyramidlands_group_pPyramid39
+    400310: environment_group_pyramidlands_group_pPyramid40
+    400312: environment_group_pyramidlands_group_pPyramid41
+    400314: environment_group_pyramidlands_group_pPyramid42
+    400316: environment_group_pyramidlands_group_pPyramid43
+    400318: environment_group_pyramidlands_group_pPyramid44
+    400320: environment_group_pyramidlands_group_pPyramid45
+    400322: environment_group_pyramidlands_group_pPyramid46
+    400324: environment_group_pyramidlands_group_pPyramid47
+    400326: environment_group_pyramidlands_group_pPyramid48
+    400328: environment_group_pyramidlands_group_pPyramid49
+    400330: environment_group_pyramidlands_group_pPyramid50
+    400332: environment_group_pyramidlands_group_pPyramid51
+    400334: environment_group_pyramidlands_group_pPyramid52
+    400336: environment_group_pyramidlands_group_pPyramid53
+    400338: environment_group_pyramidlands_group_pPyramid54
+    400340: environment_group_pyramidlands_group_pPyramid55
+    400342: environment_group_pyramidlands_group_pPyramid56
+    400344: environment_group_pyramidlands_group_pPyramid57
+    400346: environment_group_pyramidlands_group_pPyramid58
+    400348: environment_group_pyramidlands_group_pPyramid59
+    400350: environment_group_pyramidlands_group_pPyramid60
+    400352: environment_group_pyramidlands_group_pPyramid61
+    400354: environment_group_pyramidlands_group_pPyramid62
+    400356: environment_group_pyramidlands_group_pPyramid63
     2100000: baseland_mesh_environment_groupMat
     2100002: environment_group_betweenlands_group_pCube10Mat
     2100004: environment_group_betweenlands_group_pCube5Mat
@@ -392,6 +490,55 @@ ModelImporter:
     2100252: environment_group_sphereland_group_lights_group4_festival_lights_group_pSphere52Mat
     2100254: environment_group_sphereland_group_pSphere49_lights_group4_festival_lights_groupMat
     2100256: environment_group_sphereland_group_sphereland_fishbowlwater_meshMat
+    2100258: environment_group_pyramidlands_group_pPyramid15Mat
+    2100260: environment_group_pyramidlands_group_pPyramid16Mat
+    2100262: environment_group_pyramidlands_group_pPyramid17Mat
+    2100264: environment_group_pyramidlands_group_pPyramid18Mat
+    2100266: environment_group_pyramidlands_group_pPyramid19Mat
+    2100268: environment_group_pyramidlands_group_pPyramid20Mat
+    2100270: environment_group_pyramidlands_group_pPyramid21Mat
+    2100272: environment_group_pyramidlands_group_pPyramid22Mat
+    2100274: environment_group_pyramidlands_group_pPyramid23Mat
+    2100276: environment_group_pyramidlands_group_pPyramid24Mat
+    2100278: environment_group_pyramidlands_group_pPyramid25Mat
+    2100280: environment_group_pyramidlands_group_pPyramid26Mat
+    2100282: environment_group_pyramidlands_group_pPyramid27Mat
+    2100284: environment_group_pyramidlands_group_pPyramid28Mat
+    2100286: environment_group_pyramidlands_group_pPyramid29Mat
+    2100288: environment_group_pyramidlands_group_pPyramid30Mat
+    2100290: environment_group_pyramidlands_group_pPyramid31Mat
+    2100292: environment_group_pyramidlands_group_pPyramid32Mat
+    2100294: environment_group_pyramidlands_group_pPyramid33Mat
+    2100296: environment_group_pyramidlands_group_pPyramid34Mat
+    2100298: environment_group_pyramidlands_group_pPyramid35Mat
+    2100300: environment_group_pyramidlands_group_pPyramid36Mat
+    2100302: environment_group_pyramidlands_group_pPyramid37Mat
+    2100304: environment_group_pyramidlands_group_pPyramid38Mat
+    2100306: environment_group_pyramidlands_group_pPyramid39Mat
+    2100308: environment_group_pyramidlands_group_pPyramid40Mat
+    2100310: environment_group_pyramidlands_group_pPyramid41Mat
+    2100312: environment_group_pyramidlands_group_pPyramid42Mat
+    2100314: environment_group_pyramidlands_group_pPyramid43Mat
+    2100316: environment_group_pyramidlands_group_pPyramid44Mat
+    2100318: environment_group_pyramidlands_group_pPyramid45Mat
+    2100320: environment_group_pyramidlands_group_pPyramid46Mat
+    2100322: environment_group_pyramidlands_group_pPyramid47Mat
+    2100324: environment_group_pyramidlands_group_pPyramid48Mat
+    2100326: environment_group_pyramidlands_group_pPyramid49Mat
+    2100328: environment_group_pyramidlands_group_pPyramid50Mat
+    2100330: environment_group_pyramidlands_group_pPyramid51Mat
+    2100332: environment_group_pyramidlands_group_pPyramid52Mat
+    2100334: environment_group_pyramidlands_group_pPyramid53Mat
+    2100336: environment_group_pyramidlands_group_pPyramid54Mat
+    2100338: environment_group_pyramidlands_group_pPyramid55Mat
+    2100340: environment_group_pyramidlands_group_pPyramid56Mat
+    2100342: environment_group_pyramidlands_group_pPyramid57Mat
+    2100344: environment_group_pyramidlands_group_pPyramid58Mat
+    2100346: environment_group_pyramidlands_group_pPyramid59Mat
+    2100348: environment_group_pyramidlands_group_pPyramid60Mat
+    2100350: environment_group_pyramidlands_group_pPyramid61Mat
+    2100352: environment_group_pyramidlands_group_pPyramid62Mat
+    2100354: environment_group_pyramidlands_group_pPyramid63Mat
     2300000: baseland_mesh_environment_group
     2300002: environment_group_betweenlands_group_pCube10
     2300004: environment_group_betweenlands_group_pCube5
@@ -521,6 +668,55 @@ ModelImporter:
     2300252: environment_group_sphereland_group_lights_group4_festival_lights_group_pSphere52
     2300254: environment_group_sphereland_group_pSphere49_lights_group4_festival_lights_group
     2300256: environment_group_sphereland_group_sphereland_fishbowlwater_mesh
+    2300258: environment_group_pyramidlands_group_pPyramid15
+    2300260: environment_group_pyramidlands_group_pPyramid16
+    2300262: environment_group_pyramidlands_group_pPyramid17
+    2300264: environment_group_pyramidlands_group_pPyramid18
+    2300266: environment_group_pyramidlands_group_pPyramid19
+    2300268: environment_group_pyramidlands_group_pPyramid20
+    2300270: environment_group_pyramidlands_group_pPyramid21
+    2300272: environment_group_pyramidlands_group_pPyramid22
+    2300274: environment_group_pyramidlands_group_pPyramid23
+    2300276: environment_group_pyramidlands_group_pPyramid24
+    2300278: environment_group_pyramidlands_group_pPyramid25
+    2300280: environment_group_pyramidlands_group_pPyramid26
+    2300282: environment_group_pyramidlands_group_pPyramid27
+    2300284: environment_group_pyramidlands_group_pPyramid28
+    2300286: environment_group_pyramidlands_group_pPyramid29
+    2300288: environment_group_pyramidlands_group_pPyramid30
+    2300290: environment_group_pyramidlands_group_pPyramid31
+    2300292: environment_group_pyramidlands_group_pPyramid32
+    2300294: environment_group_pyramidlands_group_pPyramid33
+    2300296: environment_group_pyramidlands_group_pPyramid34
+    2300298: environment_group_pyramidlands_group_pPyramid35
+    2300300: environment_group_pyramidlands_group_pPyramid36
+    2300302: environment_group_pyramidlands_group_pPyramid37
+    2300304: environment_group_pyramidlands_group_pPyramid38
+    2300306: environment_group_pyramidlands_group_pPyramid39
+    2300308: environment_group_pyramidlands_group_pPyramid40
+    2300310: environment_group_pyramidlands_group_pPyramid41
+    2300312: environment_group_pyramidlands_group_pPyramid42
+    2300314: environment_group_pyramidlands_group_pPyramid43
+    2300316: environment_group_pyramidlands_group_pPyramid44
+    2300318: environment_group_pyramidlands_group_pPyramid45
+    2300320: environment_group_pyramidlands_group_pPyramid46
+    2300322: environment_group_pyramidlands_group_pPyramid47
+    2300324: environment_group_pyramidlands_group_pPyramid48
+    2300326: environment_group_pyramidlands_group_pPyramid49
+    2300328: environment_group_pyramidlands_group_pPyramid50
+    2300330: environment_group_pyramidlands_group_pPyramid51
+    2300332: environment_group_pyramidlands_group_pPyramid52
+    2300334: environment_group_pyramidlands_group_pPyramid53
+    2300336: environment_group_pyramidlands_group_pPyramid54
+    2300338: environment_group_pyramidlands_group_pPyramid55
+    2300340: environment_group_pyramidlands_group_pPyramid56
+    2300342: environment_group_pyramidlands_group_pPyramid57
+    2300344: environment_group_pyramidlands_group_pPyramid58
+    2300346: environment_group_pyramidlands_group_pPyramid59
+    2300348: environment_group_pyramidlands_group_pPyramid60
+    2300350: environment_group_pyramidlands_group_pPyramid61
+    2300352: environment_group_pyramidlands_group_pPyramid62
+    2300354: environment_group_pyramidlands_group_pPyramid63
     3300000: baseland_mesh_environment_group
     3300002: environment_group_betweenlands_group_pCube10
     3300004: environment_group_betweenlands_group_pCube5
@@ -650,6 +846,55 @@ ModelImporter:
     3300252: environment_group_sphereland_group_lights_group4_festival_lights_group_pSphere52
     3300254: environment_group_sphereland_group_pSphere49_lights_group4_festival_lights_group
     3300256: environment_group_sphereland_group_sphereland_fishbowlwater_mesh
+    3300258: environment_group_pyramidlands_group_pPyramid15
+    3300260: environment_group_pyramidlands_group_pPyramid16
+    3300262: environment_group_pyramidlands_group_pPyramid17
+    3300264: environment_group_pyramidlands_group_pPyramid18
+    3300266: environment_group_pyramidlands_group_pPyramid19
+    3300268: environment_group_pyramidlands_group_pPyramid20
+    3300270: environment_group_pyramidlands_group_pPyramid21
+    3300272: environment_group_pyramidlands_group_pPyramid22
+    3300274: environment_group_pyramidlands_group_pPyramid23
+    3300276: environment_group_pyramidlands_group_pPyramid24
+    3300278: environment_group_pyramidlands_group_pPyramid25
+    3300280: environment_group_pyramidlands_group_pPyramid26
+    3300282: environment_group_pyramidlands_group_pPyramid27
+    3300284: environment_group_pyramidlands_group_pPyramid28
+    3300286: environment_group_pyramidlands_group_pPyramid29
+    3300288: environment_group_pyramidlands_group_pPyramid30
+    3300290: environment_group_pyramidlands_group_pPyramid31
+    3300292: environment_group_pyramidlands_group_pPyramid32
+    3300294: environment_group_pyramidlands_group_pPyramid33
+    3300296: environment_group_pyramidlands_group_pPyramid34
+    3300298: environment_group_pyramidlands_group_pPyramid35
+    3300300: environment_group_pyramidlands_group_pPyramid36
+    3300302: environment_group_pyramidlands_group_pPyramid37
+    3300304: environment_group_pyramidlands_group_pPyramid38
+    3300306: environment_group_pyramidlands_group_pPyramid39
+    3300308: environment_group_pyramidlands_group_pPyramid40
+    3300310: environment_group_pyramidlands_group_pPyramid41
+    3300312: environment_group_pyramidlands_group_pPyramid42
+    3300314: environment_group_pyramidlands_group_pPyramid43
+    3300316: environment_group_pyramidlands_group_pPyramid44
+    3300318: environment_group_pyramidlands_group_pPyramid45
+    3300320: environment_group_pyramidlands_group_pPyramid46
+    3300322: environment_group_pyramidlands_group_pPyramid47
+    3300324: environment_group_pyramidlands_group_pPyramid48
+    3300326: environment_group_pyramidlands_group_pPyramid49
+    3300328: environment_group_pyramidlands_group_pPyramid50
+    3300330: environment_group_pyramidlands_group_pPyramid51
+    3300332: environment_group_pyramidlands_group_pPyramid52
+    3300334: environment_group_pyramidlands_group_pPyramid53
+    3300336: environment_group_pyramidlands_group_pPyramid54
+    3300338: environment_group_pyramidlands_group_pPyramid55
+    3300340: environment_group_pyramidlands_group_pPyramid56
+    3300342: environment_group_pyramidlands_group_pPyramid57
+    3300344: environment_group_pyramidlands_group_pPyramid58
+    3300346: environment_group_pyramidlands_group_pPyramid59
+    3300348: environment_group_pyramidlands_group_pPyramid60
+    3300350: environment_group_pyramidlands_group_pPyramid61
+    3300352: environment_group_pyramidlands_group_pPyramid62
+    3300354: environment_group_pyramidlands_group_pPyramid63
     4300000: baseland_mesh_environment_group
     4300002: environment_group_betweenlands_group_pCube10
     4300004: environment_group_betweenlands_group_pCube5
@@ -779,6 +1024,55 @@ ModelImporter:
     4300252: environment_group_sphereland_group_lights_group4_festival_lights_group_pSphere52
     4300254: environment_group_sphereland_group_pSphere49_lights_group4_festival_lights_group
     4300256: environment_group_sphereland_group_sphereland_fishbowlwater_mesh
+    4300258: environment_group_pyramidlands_group_pPyramid15
+    4300260: environment_group_pyramidlands_group_pPyramid16
+    4300262: environment_group_pyramidlands_group_pPyramid17
+    4300264: environment_group_pyramidlands_group_pPyramid18
+    4300266: environment_group_pyramidlands_group_pPyramid19
+    4300268: environment_group_pyramidlands_group_pPyramid20
+    4300270: environment_group_pyramidlands_group_pPyramid21
+    4300272: environment_group_pyramidlands_group_pPyramid22
+    4300274: environment_group_pyramidlands_group_pPyramid23
+    4300276: environment_group_pyramidlands_group_pPyramid24
+    4300278: environment_group_pyramidlands_group_pPyramid25
+    4300280: environment_group_pyramidlands_group_pPyramid26
+    4300282: environment_group_pyramidlands_group_pPyramid27
+    4300284: environment_group_pyramidlands_group_pPyramid28
+    4300286: environment_group_pyramidlands_group_pPyramid29
+    4300288: environment_group_pyramidlands_group_pPyramid30
+    4300290: environment_group_pyramidlands_group_pPyramid31
+    4300292: environment_group_pyramidlands_group_pPyramid32
+    4300294: environment_group_pyramidlands_group_pPyramid33
+    4300296: environment_group_pyramidlands_group_pPyramid34
+    4300298: environment_group_pyramidlands_group_pPyramid35
+    4300300: environment_group_pyramidlands_group_pPyramid36
+    4300302: environment_group_pyramidlands_group_pPyramid37
+    4300304: environment_group_pyramidlands_group_pPyramid38
+    4300306: environment_group_pyramidlands_group_pPyramid39
+    4300308: environment_group_pyramidlands_group_pPyramid40
+    4300310: environment_group_pyramidlands_group_pPyramid41
+    4300312: environment_group_pyramidlands_group_pPyramid42
+    4300314: environment_group_pyramidlands_group_pPyramid43
+    4300316: environment_group_pyramidlands_group_pPyramid44
+    4300318: environment_group_pyramidlands_group_pPyramid45
+    4300320: environment_group_pyramidlands_group_pPyramid46
+    4300322: environment_group_pyramidlands_group_pPyramid47
+    4300324: environment_group_pyramidlands_group_pPyramid48
+    4300326: environment_group_pyramidlands_group_pPyramid49
+    4300328: environment_group_pyramidlands_group_pPyramid50
+    4300330: environment_group_pyramidlands_group_pPyramid51
+    4300332: environment_group_pyramidlands_group_pPyramid52
+    4300334: environment_group_pyramidlands_group_pPyramid53
+    4300336: environment_group_pyramidlands_group_pPyramid54
+    4300338: environment_group_pyramidlands_group_pPyramid55
+    4300340: environment_group_pyramidlands_group_pPyramid56
+    4300342: environment_group_pyramidlands_group_pPyramid57
+    4300344: environment_group_pyramidlands_group_pPyramid58
+    4300346: environment_group_pyramidlands_group_pPyramid59
+    4300348: environment_group_pyramidlands_group_pPyramid60
+    4300350: environment_group_pyramidlands_group_pPyramid61
+    4300352: environment_group_pyramidlands_group_pPyramid62
+    4300354: environment_group_pyramidlands_group_pPyramid63
   externalObjects: {}
   materials:
     importMaterials: 1
