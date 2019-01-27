@@ -48,6 +48,7 @@ MonoBehaviour:
   spawnPoint: {fileID: 0}
   premeetingGroup: {fileID: 0}
   postMeetingGroup: {fileID: 0}
+  InGameTalisman: {fileID: 0}
   uiTalisman: {fileID: 0}
   fadeoutImage: {fileID: 0}
   player: {fileID: 0}
@@ -71,7 +72,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.293
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
