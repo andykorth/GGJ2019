@@ -88,9 +88,10 @@
 //                             emission = float3(1, 0, 0);
 
             c = float4(emission.rgb, 1);
-            float x = abs( IN.uv_MainTex.y );
-            float y = sin(IN.uv_MainTex.y);
-            c = lerp(_xColor, _zColor, x);
+          //  float x = abs( IN.uv_MainTex.y );
+            float y = IN.uv_MainTex.y;
+            c = lerp(_xColor, _zColor, y);
+            emission = c.rgb;
            
             float s = (IN.worldPos.y - _bottomFadeY) / (_topFadeY - _bottomFadeY);
             c *= 1 - clamp(s * 0.4 + 0.6, 0, 1);
