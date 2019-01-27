@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
       
         if(!DialogUI.i.isOpen){
             foreach(NPC n in NPC.allNPCs){
-                if( (n.transform.position - transform.position).sqrMagnitude < n.radius * n.radius ){
+                if(n.dialogLines.Count > 0 && (n.transform.position - transform.position).sqrMagnitude < n.radius * n.radius ){
                     n.ShowNextLine();
                     ball.PumpTheBrakes();
                     return;

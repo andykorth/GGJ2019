@@ -29,6 +29,10 @@ public class NPC : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         startPos = new Vector2(transform.position.x, transform.position.z);
         allNPCs.Add(this);
+
+        if(dialogLines.Count <= 0){
+            newDialogMarker.SetActive(false);
+        }
     }
 
     public void OnDisable(){
