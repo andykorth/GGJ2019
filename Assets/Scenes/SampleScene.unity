@@ -434,8 +434,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6737783404580801640, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
         type: 3}
+      propertyPath: dialogLines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737783404580801640, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
+        type: 3}
       propertyPath: dialogLine
       value: Happiness is where you are! Home!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737783404580801640, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
+        type: 3}
+      propertyPath: dialogLines.Array.data[0]
+      value: "Don\u2019t you feel so safe here inside the circle? I\u2019m glad we
+        made our home here, the rest of the world is so big and dangerous. We don\u2019t
+        know anything about what\u2019s out there."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a, type: 3}
@@ -629,7 +641,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 49a0e923d39ec3c4c8bb97699e2f2903, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 49a0e923d39ec3c4c8bb97699e2f2903, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -711,7 +723,7 @@ Transform:
   - {fileID: 1908714263}
   - {fileID: 1937184506}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &326380661 stripped
 GameObject:
@@ -922,8 +934,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6737783404580801640, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
         type: 3}
+      propertyPath: dialogLines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737783404580801640, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
+        type: 3}
       propertyPath: dialogLine
       value: We spheres have lived here many years. Many... Sphere Years.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737783404580801640, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
+        type: 3}
+      propertyPath: dialogLines.Array.data[0]
+      value: "You know the circle\u2019s protected us since the flood right? Don\u2019t
+        go out there friend, it\u2019s far too dangerous."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a, type: 3}
@@ -1519,8 +1542,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6737783404580801640, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
         type: 3}
+      propertyPath: dialogLines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737783404580801640, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
+        type: 3}
       propertyPath: dialogLine
       value: Happiness is where you are! Home!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737783404580801640, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
+        type: 3}
+      propertyPath: dialogLines.Array.data[0]
+      value: "Hope you\u2019re enjoying the festival, the old ones put a lot of work
+        into getting everything together. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737783404580801640, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
+        type: 3}
+      propertyPath: dialogLines.Array.data[1]
+      value: 'Why were were they hosting this again? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737783404580801640, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
+        type: 3}
+      propertyPath: dialogLines.Array.data[2]
+      value: "Oh that\u2019s right you weren\u2019t here back then! Well there was
+        the great flood about a year ago but we were protected from it. The old ones
+        wanted to host a celebration in honor of our blessed survival. "
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a, type: 3}
@@ -1819,17 +1865,17 @@ PrefabInstance:
     - target: {fileID: 3134669003325269279, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -210.56
+      value: -164.21
       objectReference: {fileID: 0}
     - target: {fileID: 3134669003325269279, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.13
+      value: -3.531
       objectReference: {fileID: 0}
     - target: {fileID: 3134669003325269279, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.18
+      value: 40.86
       objectReference: {fileID: 0}
     - target: {fileID: 3134669003325269279, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
         type: 3}
@@ -1873,8 +1919,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6737783404580801640, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
         type: 3}
+      propertyPath: dialogLines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737783404580801640, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
+        type: 3}
       propertyPath: dialogLine
       value: We spheres have lived here many years. Many... Sphere Years.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737783404580801640, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
+        type: 3}
+      propertyPath: dialogLines.Array.data[0]
+      value: "Hey you\u2019re not supposed to be down here! "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737783404580801640, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
+        type: 3}
+      propertyPath: dialogLines.Array.data[1]
+      value: 'Yeah and what are you going to do about it? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737783404580801640, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
+        type: 3}
+      propertyPath: dialogLines.Array.data[2]
+      value: "Well\u2026 nothing really, I\u2019m not programmed to. You better get
+        going then, maybe come back later."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a, type: 3}
@@ -1944,80 +2011,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300038, guid: 3cac0ed9e54ae594f95fafc813a39c0f, type: 3}
---- !u!1001 &1193296445
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3989866352961355537, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
-        type: 3}
-      propertyPath: m_Name
-      value: SphereNPC (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3134669003325269279, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -221.12
-      objectReference: {fileID: 0}
-    - target: {fileID: 3134669003325269279, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 9.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 3134669003325269279, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 21.38
-      objectReference: {fileID: 0}
-    - target: {fileID: 3134669003325269279, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3134669003325269279, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3134669003325269279, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3134669003325269279, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3134669003325269279, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 3134669003325269279, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3134669003325269279, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3134669003325269279, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6737783404580801640, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
-        type: 3}
-      propertyPath: dialogLine
-      value: We spheres have lived here many years. Many... Sphere Years.
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a, type: 3}
 --- !u!1 &1196529809 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100200, guid: 3cac0ed9e54ae594f95fafc813a39c0f,
@@ -2153,7 +2146,7 @@ RectTransform:
   - {fileID: 5370483406722804524}
   - {fileID: 1765938373}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2294,7 +2287,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1280548274 stripped
 GameObject:
@@ -2731,6 +2724,18 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737783404580801640, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
+        type: 3}
+      propertyPath: dialogLines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737783404580801640, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a,
+        type: 3}
+      propertyPath: dialogLines.Array.data[0]
+      value: 'I was there during the flood, it was so frightening watching the water
+        landing on the barrier above us! Then waves washed around us and poured out
+        of our valley. '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29633c1dd8c45bb4bb18dcfe1388fa9a, type: 3}
