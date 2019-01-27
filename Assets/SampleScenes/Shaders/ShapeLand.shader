@@ -34,6 +34,7 @@
             float2 uv_MainTex;
             float3 worldNormal;
             float3 worldPos;
+            float3 worldRefl;
         };
 
         half _Glossiness;
@@ -67,9 +68,13 @@
             float remainder = 1 - clamp(first + second, 0, 1);
 
             float2 uv = IN.worldPos.xz * _scale;
-            float sparkle = tex2D(_MainTex, uv).r * remainder * _sparkleIntensity * dot(float3(0, 1, 0), IN.worldNormal);
+            float sparkle = tex2D(_MainTex, uv).r * remainder * _sparkleIntensity * clamp(dot(float3(0, 1, 0), IN.worldNormal), 0, 1);
 
-            sparkle = sparkle * abs(sin(IN.worldPos.x + _Time[3]));
+           sparkle = sparkle * abs(sin(IN.worldPos.x + _Time[3]));
+
+            // Make the ground sparkle based on the dot product of the viewing angle onto this surface AND the light direction (which is hardcoded here)
+          //  float sparkleAmount =  (1- abs(dot(IN.worldRefl, float3(0.5, 0.5, 0))) );
+            //sparkle = sparkle * sparkleAmount;
 
             float3 emission =  _xColor * first
                              + _zColor * second
